@@ -15,7 +15,7 @@ public void draw()
    
   stroke(0);  
   strokeWeight(4); 
-  image(b,260,150);
+  image(b,0,0);
   line(320,270,320,250);   
   drawBranches(320,250,67,3*Math.PI/2);  //will add later 
 } 
