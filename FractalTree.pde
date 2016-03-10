@@ -1,5 +1,5 @@
 
-PImage b;
+PImage photo;
 private double fractionLength = .8; 
 private int smallestBranch = 10; 
 private double branchAngle = .2;  
@@ -7,12 +7,12 @@ private double branchAngle = .2;
 public void setup() 
 {   
   size(564,317); 
-  b = loadImage("AfricanPlains.jpg");   
+  photo = loadImage("AfricanPlains.jpg");   
   noLoop();
 } 
 public void draw() 
 {   
-  image(b,0,0);
+  image(photo,0,0);
   stroke(0);  
   strokeWeight(4); 
   line(320,270,320,250);   
