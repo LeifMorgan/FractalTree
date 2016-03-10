@@ -1,4 +1,4 @@
-/* @pjs preload="African Plains.JPG"; */
+
 PImage b;
 private double fractionLength = .8; 
 private int smallestBranch = 10; 
