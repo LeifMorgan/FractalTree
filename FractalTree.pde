@@ -1,5 +1,5 @@
 
-PImage photo;
+PImage webImg;
 private double fractionLength = .8; 
 private int smallestBranch = 10; 
 private double branchAngle = .2;  
@@ -7,12 +7,14 @@ private double branchAngle = .2;
 public void setup() 
 {   
   size(564,317); 
-  photo = loadImage("AfricanPlains.jpg");   
+  String url = "https://raw.githubusercontent.com/LeifMorgan/FractalTree/gh-pages/AfricanPlains.jpg";
+  webImg = loadImage("https://raw.githubusercontent.com/LeifMorgan/FractalTree/gh-pages/AfricanPlains.jpg", "png");
+
   noLoop();
 } 
 public void draw() 
 {   
-  image(photo,0,0);
+  image(webImg,0,0);
   stroke(0);  
   strokeWeight(4); 
   line(320,270,320,250);   
